@@ -1,5 +1,6 @@
 // This lab provides an opportunity to practice defining, accessing, and manipulating objects.
-
+// console.log("Checking if console in browser is working... Working!");//Quick check before assignment
+//to make sure console log is working
 
 const game = {
     party: [],
@@ -37,15 +38,15 @@ const game = {
 //   console.log(game[59]);
 //   or 
 //   console.log(game[59].name);
-console.log(pokemon[59].name);//index #59 is actually pokemon 60, which is Poliwag
-console.log(pokemon[58].name);//is actually pokemon 59 at index 58, which is Arcanine
+console.log(pokemon[59].name);//index #59 of the array is actually pokemon 60, which is Poliwag. I believe this is the correct one they are looking for
+console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array, which is Arcanine
 // QUESTION - Which one is the assignment asking me for? The index or the actual pokemon number?
 
 // ---------------------------------------------------------------------------------------------------------
 
 // Exercise 2
 // game.party = all the Pokémon on my team (ones you've caught)
-// game.gyms = all the battles faced / checkpoints (faced or will face)
+// game.gyms = all the battles faced or checkpoints (faced or will face). Note boolean property for each.
 // game.items = all the stuff I'm carrying (like Poké Balls, potions, etc.)
 
 console.log(game)
@@ -62,10 +63,14 @@ Exercise 3
 1. Add a new property to the `game` object. Let's call it "difficulty".
 2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
 
+This question is asking me to:
+Add a new key-value pair to the game object.
+The key (property name) should be "difficulty".
+The value should be a difficulty level I choose, like "Easy", "Med", or "Hard".
 Solve Exercise 3 here:
 */
 
-
+game.difficulty //I want to choose easy for this one
 
 
 
