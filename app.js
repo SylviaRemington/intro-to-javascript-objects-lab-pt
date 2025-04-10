@@ -38,6 +38,8 @@ const game = {
 //   console.log(game[59]);
 //   or 
 //   console.log(game[59].name);
+
+//Exercise 1 Completed Below:
 console.log(pokemon[59].name);//index #59 of the array is actually pokemon 60, which is Poliwag. I believe this is the correct one they are looking for
 console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array, which is Arcanine
 // QUESTION - Which one is the assignment asking me for? The index or the actual pokemon number?
@@ -49,6 +51,7 @@ console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array,
 // game.gyms = all the battles faced or checkpoints (faced or will face). Note boolean property for each.
 // game.items = all the stuff I'm carrying (like Poké Balls, potions, etc.)
 
+//Exercise 2 Completed Below:
 console.log(game)
 
 //after console logging console.log(game), it shows this: {party: Array(0), gyms: Array(8), items: Array(3)}
@@ -70,7 +73,45 @@ The value should be a difficulty level I choose, like "Easy", "Med", or "Hard".
 Solve Exercise 3 here:
 */
 
-game.difficulty //I want to choose easy for this one
+//For below, I initially thought I had to copy and paste everything from above to add difficulty to the game.
+//So I did that below... but I figured that was doing too much... So below, I did something different and 
+//just added difficulty level 1.
+// const game = {
+//   party: [],
+//   gyms: [
+//     { location: "Pewter City", completed: false, difficulty: 1 },
+//     { location: "Cerulean City", completed: false, difficulty: 2 },
+//     { location: "Vermilion City", completed: false, difficulty: 3 },
+//     { location: "Celadon City", completed: false, difficulty: 4 },
+//     { location: "Fuchsia City", completed: false, difficulty: 5 },
+//     { location: "Saffron City", completed: false, difficulty: 6 },
+//     { location: "Cinnabar Island", completed: false, difficulty: 7 },
+//     { location: "Viridian City", completed: false, difficulty: 8 },
+//   ],
+//   items: [
+//     { name: "potion", quantity: 4 },
+//     { name: "pokeball", quantity: 8 },
+//     { name: "rare candy", quantity: 99 },
+//   ],
+//   difficulty: [
+//     {level1: "Easy"},
+//     {level2: "Med"},
+//     {level3: "Hard"},
+//   ],
+// }
+
+// console.log(game.difficulty.level1);
+
+//Exercise 3 Completed Below:
+game.difficulty = "Easy";
+console.log(game); //to show that it was added to the game
+console.log(game.difficulty); //just to see the level by itself
+
+// ---------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
