@@ -51,7 +51,7 @@ console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array,
 // game.gyms = all the battles faced or checkpoints (faced or will face). Note boolean property for each.
 // game.items = all the stuff I'm carrying (like Poké Balls, potions, etc.)
 
-//Exercise 2 Completed Below:
+//Exercise 2 Completed Below, asking to run the following:
 console.log(game)
 
 //after console logging console.log(game), it shows this: {party: Array(0), gyms: Array(8), items: Array(3)}
@@ -75,7 +75,7 @@ Solve Exercise 3 here:
 
 //For below, I initially thought I had to copy and paste everything from above to add difficulty to the game.
 //So I did that below... but I figured that was doing too much... So below, I did something different and 
-//just added difficulty level 1.
+//just added difficulty "Easy".
 // const game = {
 //   party: [],
 //   gyms: [
@@ -102,7 +102,9 @@ Solve Exercise 3 here:
 // console.log(game.difficulty.level1);
 
 //Exercise 3 Completed Below:
-game.difficulty = "Easy";
+game.difficulty = "Easy"; //This is one way to do it. However, I wanted to re-create what I had above. Below is another way to do it.
+//Below is another way to create it with three levels, that can be used when you jump from level1 to level2.
+// game.difficulty = [{level1: "Easy"}, {level2: "Med"}, {level3: "Hard"} ];//re-creating what I typed above to add to game.
 console.log(game); //to show that it was added to the game
 console.log(game.difficulty); //just to see the level by itself
 
