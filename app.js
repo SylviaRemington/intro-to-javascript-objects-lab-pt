@@ -202,7 +202,8 @@ Solve Exercise 6 here:
 // I want the loop to loop through the OBJECTS WITHIN THE GYMS
 //The gyms is an object that has an array and then lines of objects within it. I want to loop through the lines of objects.
 //Each object in the gyms array has an index #... Maybe loop through the index number while specifying a difficulty less than 3
-//How do I do this???? lol
+//How do I do this???? ...the struggle is real... lol
+
 
 
 // ---------------------------------------------------------------------------------------------------------
