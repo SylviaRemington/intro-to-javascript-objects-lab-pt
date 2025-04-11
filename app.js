@@ -99,7 +99,6 @@ Solve Exercise 3 here:
 //     {level3: "Hard"},
 //   ],
 // }
-
 // console.log(game.difficulty.level1);
 
 //Exercise 3 Completed Below:
@@ -109,8 +108,24 @@ console.log(game.difficulty); //just to see the level by itself
 
 // ---------------------------------------------------------------------------------------------------------
 
+/*
+Exercise 4
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
+Solve Exercise 4 here:
+*/
 
+//Incorrect first try - What I found out I did with this is just attach a name to the outside of an array named Pikachu. Totally incorrect. lol
+// game.party.name = "Pikachu"
+// console.log(game.party);
 
+//Exercise 4 Completed Below:
+game.party.push(pokemon[24]);
+console.log(game.party);//just showing what was added to the party object section of game
+console.log(game);//showing the full game and making sure it was added where it was supposed to be added
+//Alara, what would be best to console log for this one? 
+
+// ---------------------------------------------------------------------------------------------------------
 
 
 
