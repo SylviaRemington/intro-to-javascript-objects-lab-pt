@@ -129,6 +129,46 @@ console.log(game);//showing the full game and making sure it was added where it 
 
 // ---------------------------------------------------------------------------------------------------------
 
+/*
+Exercise 5
+1. Choose three more Pokémon from the `pokemon` array and add them to your party.
+2. Consider different attributes like 'type' or 'HP' for your selection. Which array method will you use to add them?
+Solve Exercise 5 here:
+*/
+
+//Exercise 5 Completed Below:
+game.party.unshift(pokemon[0]);
+console.log(game.party);
+//I added 'Bulbasaur' to the beginning of the array before Pikachu. Also, this pokemon has a different type called 'grass'.
+// The above created this in the console log:
+// 0: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
+// 1: {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
+// length: 2
+
+game.party.splice(1, 0, pokemon[6]);
+console.log(game.party);
+//I spliced 'Squirtle' in between Bulb.. and Pikachu. Also, this pokemon has a different type called 'water'.
+//The above created this in the console log:
+// 0: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
+// 1: {number: 7, name: 'Squirtle', type: 'water', hp: 44, starter: true}
+// 2: {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
+// length: 3
+
+game.party = [pokemon[3], ...game.party];
+console.log(game.party);
+//I wanted to use the spread array method to add this pokemon. This pokemon has a different type called 'fire'.
+//The above created this in the console log:
+// 0: {number: 4, name: 'Charmander', type: 'fire', hp: 39, starter: true}
+// 1: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
+// 2: {number: 7, name: 'Squirtle', type: 'water', hp: 44, starter: true}
+// 3: {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
+// length: 4
+
+// ---------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 
