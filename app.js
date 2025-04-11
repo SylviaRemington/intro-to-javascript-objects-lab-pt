@@ -182,11 +182,25 @@ Solve Exercise 6 here:
 */
 
 //First attempt... incorrect... not sure why... looking into it
+//I think I'm really confused as to how to interact with Objects. Gonna re-watch class again.
 // for (let i=0; game.gyms.difficulty <3; i++){
   // return game.gyms.completed = true;//Uncaught SyntaxError: Illegal return statement (at app.js:185:3)
-};
+// };
 // console.log(game.gyms);
 //Uncaught SyntaxError: Illegal return statement (at app.js:185:3)
+// Notes from chatgpt about above code and trying to explain why it doesn't work and giving me hints, 
+// but I still don't understand the chatgpt explanation. lol
+// 1. game.gyms is a list of gyms, not just one gym. You need to look at each gym one at a time.
+// 2. You wrote game.gyms.difficulty, but that doesn’t work because gyms is a list. You need to write something like game.gyms[i].difficulty to get the difficulty of one gym.
+// 3. return only works inside a function. You’re not inside a function, so you can’t use return here.
+// 4. Your for loop condition is wrong. A loop needs to know when to stop (like i < 10 or i < game.gyms.length), not a condition like game.gyms.difficulty < 3.
+// 5. To change something in each gym, you have to go through the list and change one gym at a time using game.gyms[i].completed = true.
+
+
+
+
+
+// ---------------------------------------------------------------------------------------------------------
 
 
 
