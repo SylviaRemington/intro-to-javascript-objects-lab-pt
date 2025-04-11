@@ -140,7 +140,7 @@ Solve Exercise 5 here:
 //Exercise 5 Completed Below:
 game.party.unshift(pokemon[0]);
 console.log(game.party);
-//I added 'Bulbasaur' to the beginning of the array before Pikachu. Also, this pokemon has a different type called 'grass'.
+//I added 'Bulbasaur' to the beginning of the array before Pikachu. Also, this pokemon has a different attribute type called 'grass'.
 // The above created this in the console log:
 // 0: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
 // 1: {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
