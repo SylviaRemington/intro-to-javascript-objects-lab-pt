@@ -197,7 +197,7 @@ Solve Exercise 6 here:
 // 5. To change something in each gym, you have to go through the list and change one gym at a time using game.gyms[i].completed = true.
 
 //Second attempt
-//Thinking of trying a for...loop and/or a forEach loop
+//Thinking of trying a for...loop and/or a forEach loop:
 
 
 
