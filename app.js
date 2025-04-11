@@ -47,7 +47,7 @@ console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array,
 // ---------------------------------------------------------------------------------------------------------
 
 // Exercise 2
-// game.party = all the Pokémon on my team (ones you've caught)
+// game.party = all the Pokémon on my team (ones I've caught)
 // game.gyms = all the battles faced or checkpoints (faced or will face). Note boolean property for each.
 // game.items = all the stuff I'm carrying (like Poké Balls, potions, etc.)
 
