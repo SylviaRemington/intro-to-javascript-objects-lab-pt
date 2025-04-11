@@ -104,10 +104,15 @@ Solve Exercise 3 here:
 
 //Exercise 3 Completed Below:
 game.difficulty = "Easy"; //This is one way to do it. However, I wanted to re-create what I had above. Below is another way to do it.
+console.log(game); //to show that it was added to the game
+console.log(game.difficulty); //just to see the value of difficulty by itself
+
 //Below is another way to create it with three levels, that can be used when you jump from level1 to level2, and then to level3.
 // game.difficulty = [{level1: "Easy"}, {level2: "Med"}, {level3: "Hard"} ];//re-creating what I typed above to add to game.
+//or I could do the following:
+game.difficulty = ["Easy", "Med", "Hard"];
 console.log(game); //to show that it was added to the game
-console.log(game.difficulty); //just to see the level by itself
+console.log(game.difficulty); //just to see the game difficulty array
 
 // ---------------------------------------------------------------------------------------------------------
 
