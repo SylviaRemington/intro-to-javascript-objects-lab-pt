@@ -33,6 +33,7 @@ const game = {
 //   For exercise 1, below are the first two trys of logging the name of the Pokemon with the number 59;
 //   but the correct answer (I think) is console.log(pokemon[59].name);
 
+//Incorrect attempts... /was figuring it out at this point
 //   console.log(name, [59]);
 //   or
 //   console.log(game[59]);
