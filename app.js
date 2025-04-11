@@ -196,7 +196,7 @@ Solve Exercise 6 here:
 // 4. Your for loop condition is wrong. A loop needs to know when to stop (like i < 10 or i < game.gyms.length), not a condition like game.gyms.difficulty < 3.
 // 5. To change something in each gym, you have to go through the list and change one gym at a time using game.gyms[i].completed = true.
 
-
+//Second attempt
 
 
 
