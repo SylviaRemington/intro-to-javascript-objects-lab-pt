@@ -181,7 +181,13 @@ Figure out which loop I'd like to use to check each gym and change completed pro
 Solve Exercise 6 here:
 */
 
-for ()
+//First attempt... incorrect... not sure why... looking into it
+// for (let i=0; game.gyms.difficulty <3; i++){
+  // return game.gyms.completed = true;//Uncaught SyntaxError: Illegal return statement (at app.js:185:3)
+};
+// console.log(game.gyms);
+//Uncaught SyntaxError: Illegal return statement (at app.js:185:3)
+
 
 
 
