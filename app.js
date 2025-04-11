@@ -168,6 +168,21 @@ console.log(game.party);
 // ---------------------------------------------------------------------------------------------------------
 
 
+/*
+Exercise 6
+1. Set the `completed` property to true for gyms with a difficulty below 3.
+2. Think about how you'd loop through the `gyms` array to check and update the `completed` property.
+
+This exercise wants me to:
+Look through the gyms array inside game.
+Find gyms where the difficulty is less than 3.
+For those gyms, change the completed property to true.
+Figure out which loop I'd like to use to check each gym and change completed property to true for difficulty < 3.
+Solve Exercise 6 here:
+*/
+
+for ()
+
 
 
 
