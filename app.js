@@ -375,8 +375,30 @@ console.log(game.party);
 // ---------------------------------------------------------------------------------------------------------
 
 
+/*
+Exercise 8
+1. Print the name of each Pokémon in your party.
+2. Consider using a loop or an array method to access each Pokémon's name.
 
-  
+Solve Exercise 8 here:
+*/
+
+const myPokemonParty = [
+{number: 5, name: 'Charmeleon', type: 'fire', hp: 58, starter: false},
+{number: 2, name: 'Ivysaur', type: 'grass', hp: 60, starter: false},
+{number: 8, name: 'Wartortle', type: 'water', hp: 59, starter: false},
+{number: 26, name: 'Raichu', type: 'electric', hp: 60, starter: false},
+]
+
+for (const pokemonIndividualArrayList of myPokemonParty) {
+  console.log(`I'm in myPokemonParty with Sylvia's party, and my name is ${pokemonIndividualArrayList.name}!`) //I printed this to understand the flow of the loop and exercise for myself.
+  console.log(`My name is ${pokemonIndividualArrayList.name}!`); //This is the answer to the Exercise.
+}
+console.log(myPokemonParty);
+
+// ---------------------------------------------------------------------------------------------------------
+
+
 
 
 
