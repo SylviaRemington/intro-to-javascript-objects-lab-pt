@@ -1,5 +1,6 @@
 // This lab provides an opportunity to practice defining, accessing, and manipulating objects.
 // console.log("Checking if console in browser is working... Working!");//Quick check before assignment to make sure console log is working
+
 //This lab has been highly challenging to me because I've only played two video games in my entire life for maybe a total of 15 minutes.
 //It's taking me longer than normal to understand the concepts behind the game to understand what I am trying to create.
 
