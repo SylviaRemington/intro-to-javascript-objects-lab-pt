@@ -548,9 +548,10 @@ Solve Exercise 11 here:
 // I'm kinda confused as to how to combine everything I know for this lab. I hope I can still get credit for this lab. Doing the best I can.
 
 
-//Notes for me:
-//If have time after going through HTML & CSS Video Watch assignment, 
-// look into this method and review Objects lecture again. 
-// Also, look into find method and find more info about that.
-//So far have done Exercises 1-10 correctly. Still working on Ex 11, and will keep working on this until assignment due on Monday, April 14th.
-//Is it normal to take this long to understand this assignment? Am I too stupid to code?
+// Notes for me:
+// If have time after going through HTML & CSS Video Watch assignment, 
+// look into the "this" method and review Objects lecture again. 
+// Also, look into "find" method and find more info about that.
+// So far have done Exercises 1-10 correctly. Still working on Ex 11, and will keep working on this until assignment due on Monday, April 14th.
+// Is it normal to take this long to understand this assignment? Am I too slow or stupid to code? Or is this normal to struggle when learning this?
+//I've never had such a hard time learning a subject before.
