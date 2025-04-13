@@ -483,15 +483,13 @@ Solve Exercise 10 here:
 
 // console.dir(pokemon, { maxArrayLength: null })
 
-// game.catchPokemon = 
 
-game.catchPokemon = function(pokemonObj) {
-  game.party.push(pokemonObj);
+
+game.catchPokemon = function(pokemonObj) { //creating a function, adding it to the game object, & accepting an object as a parameter (it has one parameter called pokemonObj)
+  game.party.push(pokemonObj);//adding `pokemonObj` to the `game.party` array
 };
-game.catchPokemon(pokemon[81]);
-console.log(game.party);
-
-//Write explanation of this code and why chose to do it this way... when I get back to this hw tomorrow.....
+game.catchPokemon(pokemon[81]); //calling the function and updating with pokemon 81
+console.log(game.party); //
 
 
  // ---------------------------------------------------------------------------------------------------------
@@ -509,8 +507,41 @@ Also, log the `game.items` array to confirm that the pokeball quantity is being 
 
 Solve Exercise 11 here:
 */
+
+
+//I'm not sure if I'm doing this exercise right. 
+//I don't get why we copy and paste this catchMethod here, when we are focusing on games.items and pokeball quantity.
+
+// Notes from chatgpt about why we're doing this:
+// Why are you copying the method? Because the exercise wants you to modify the original method to do something extra:
+// Before: catchPokemon only added a Pokémon to the party.
+// Now: You need to also subtract 1 from the pokeball quantity every time the function runs.
+// So you're copying the original version so you can add to it without rewriting everything from scratch.
+
+// 🔹 Why are we changing catchPokemon instead of writing a new function?
+// Because this task is about catching a Pokémon — the exact same job as the original function.
+// You're just adding new behavior to the existing function:“When catching, also reduce pokeballs by 1.”
+
+// 🔹 So why is game.items involved now?
+// Because game.items is where your inventory is stored.
+// Pokeballs live there.
+
+// You’ll need to look inside game.items, find the pokeball, and subtract 1 from its quantity.
+
+//Pasted from above
+//First attempt at exercise... when calling the function this way, I get error message: 
+// app.js:539 Uncaught ReferenceError: items is not defined
+    at app.js:539:19
 game.catchPokemon = function(pokemonObj) {
   game.party.push(pokemonObj);
+  if (catchPokemon === true) {
+    game.items = game.items -1;
+  }
 };
-game.catchPokemon(pokemon[81]);
+game.catchPokemon(items); 
 console.log(game.party);
+
+//Not sure where to go from here.
+//This is as far as I got with this assignment. I've been working on it from April 9th-13th and rewatching Objects lecture and Arrays lecture. 
+// This is the best I can do so far. For some reason, Objects and this objects lab isn't clicking for me yet. 
+// I'm kinda confused as to how to combine everything I know for this lab. I hope I can still get credit for this lab. Doing the best I can.
