@@ -210,6 +210,16 @@ Solve Exercise 6 here:
 //Each object in the gyms array has an index #... Maybe loop through the index number while specifying a difficulty less than 3
 //How do I do this???? ...the struggle is real... lol
 
+//Second Attempt
+// for (let gym of gyms){
+//   if (difficulty < 3){
+//     game.gyms.completed(1,1,'true',)//use slice method???? I'm so confused
+//   }
+// }
+// console.log(game.gym.difficulty);//app.js:230 Uncaught ReferenceError: gyms is not defined
+// at app.js:230:17
+// I'm so confused.... //Took the rest of the night off, rewatched entire lecture and then did the following below...
+
 // const game = {
 //   party: [],
 //   gyms: [
@@ -228,16 +238,30 @@ Solve Exercise 6 here:
 //     { name: "rare candy", quantity: 99 },
 //   ],
 // }
-//Second Attempt
-// for (let gym of gyms){
-//   if (difficulty < 3){
-//     game.gyms.completed(1,1,'true',)//use slice method???? I'm so confused
+
+// What it's asking you to do:
+// 1. Look at each gym in the game.gyms array.
+// 2. If the gym's difficulty is less than 3 (so difficulty 1 or 2), then: → Change that gym’s completed value to true.
+
+// What you’ll need to do:
+// 1. Go through each gym one by one (use a loop).
+// 2. Check if that gym’s difficulty is below 3.
+// 3. If it is, change its completed from false to true.
+
+// Next attempt - had error message... but closer... I realized I needed to get to gym and not be referencing from the outside.
+// game.gyms.forEach(function(gym)){
+//   if (game.gyms.difficulty <3) {
+//     game.gyms.completed = true;
 //   }
 // }
-// console.log(game.gym.difficulty);//app.js:230 Uncaught ReferenceError: gyms is not defined
-// at app.js:230:17
+// console.log(game.gyms.completed);
 
-// I'm so confused....
+game.gyms.forEach(function(gym){ //gets inside of the array, so now I can just name info inside the array
+  if (gym.difficulty <3) {  //going through one array at a time with gym 
+    gym.completed = true;   //changing gym.completed to true if this condition is met
+  }
+});
+console.log(game.gyms);
 
 // ---------------------------------------------------------------------------------------------------------
 
