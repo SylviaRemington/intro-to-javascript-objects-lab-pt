@@ -422,6 +422,7 @@ Solve Exercise 9 here:
 //Gonna use a for..of loop / that's easier
 
   //Exercise 9 completed below:
+
   const starterPokemonNames = [];
 
   for (const starterPokemon of pokemon) {
@@ -432,7 +433,24 @@ Solve Exercise 9 here:
 
   console.log(starterPokemonNames);
 
- 
-  // ---------------------------------------------------------------------------------------------------------
 
   
+  // Also simpler version:
+  game.party.forEach((pokemon) => {
+    if (pokemon.starter) {
+      console.log(pokemon.name);
+    }
+  });
+ 
+
+  // ---------------------------------------------------------------------------------------------------------
+
+console.log(game.party);
+game.party.forEach((pokemon) => {
+    
+  
+  if (pokemon.starter) {
+      console.log(pokemon.name);
+    }
+  }
+);
