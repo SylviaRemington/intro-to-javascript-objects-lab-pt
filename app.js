@@ -33,8 +33,8 @@ const game = {
   See this in console log on web browser as Array(151) with drop down menu of arrays 0-99, 100-150.*/
 
 //   For exercise 1, below are the first two trys of logging the name of the Pokemon with the number 59;
-//   but the correct answer (I think) is console.log(pokemon[59].name); however, if you're looking for the name of Pokemon #59, 
-//   then the answer is console.log(pokemon[58].name);
+//   but the correct answer (I think) is console.log(pokemon[59].name); however, if you're looking 
+//   for the name of Pokemon #59, then the answer is console.log(pokemon[58].name);
 
 //Incorrect attempts... /was figuring it out at this point
 //   console.log(name, [59]);
