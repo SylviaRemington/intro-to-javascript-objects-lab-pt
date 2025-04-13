@@ -434,22 +434,19 @@ Solve Exercise 9 here:
   console.log(starterPokemonNames);
 
 
-  
+
   // Also simpler version:
   game.party.forEach((pokemon) => {
     if (pokemon.starter) {
       console.log(pokemon.name);
     }
   });
- 
+
+  // Another version... this seems the simplest? Still a little confused, but maybe starting to understand better here
+  pokemon.forEach((character) => {
+    if (character.starter === true) {
+        console.log(character.name);
+    }
+})
   // ---------------------------------------------------------------------------------------------------------
 
-console.log(game.party);
-game.party.forEach((pokemon) => {
-    
-  
-  if (pokemon.starter) {
-      console.log(pokemon.name);
-    }
-  }
-);
