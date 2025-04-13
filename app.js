@@ -398,7 +398,41 @@ console.log(myPokemonParty);
 
 // ---------------------------------------------------------------------------------------------------------
 
+/*
+Exercise 9
+1. Can you print out all the starter Pokémon from the `pokemon` array?
+2. Think about how you can identify a starter Pokémon and then log their names.
 
 
+Solve Exercise 9 here:
+*/
 
+//First attempt - totally off... I'm kind of confused. I think I need a better understanding of functions, loops, arrays, and objects
+//Need to study all these subjects way more to better understand - study functions, loops, arrays, and objects during free time
 
+//First attempt
+// const starterPokemon = pokemon.starter:true ;
+// if (pokemon[starter: true] ===true) {
+//   console.log(starterPokemon);
+// }
+// console.log(starterPokemon);
+
+// ------------------------------------------------
+
+//Gonna use a for..of loop / that's easier
+
+  //Exercise 9 completed below:
+  const starterPokemonNames = [];
+
+  for (const starterPokemon of pokemon) {
+    if (starterPokemon.starter === true) {
+      starterPokemonNames.push(starterPokemon.name);
+    }
+  }
+
+  console.log(starterPokemonNames);
+
+ 
+  // ---------------------------------------------------------------------------------------------------------
+
+  
