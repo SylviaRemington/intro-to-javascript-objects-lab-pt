@@ -530,16 +530,17 @@ Solve Exercise 11 here:
 
 //Pasted from above
 //First attempt at exercise... when calling the function this way, I get error message: 
-// app.js:539 Uncaught ReferenceError: items is not defined
-    at app.js:539:19
-game.catchPokemon = function(pokemonObj) {
-  game.party.push(pokemonObj);
-  if (catchPokemon === true) {
-    game.items = game.items -1;
-  }
-};
-game.catchPokemon(items); 
-console.log(game.party);
+// app.js:539 Uncaught ReferenceError: items is not defined at app.js:539:19
+
+// First Attempt Below
+// game.catchPokemon = function(pokemonObj) {
+//   game.party.push(pokemonObj);
+//   if (catchPokemon === true) {
+//     game.items = game.items -1;
+//   }
+// };
+// game.catchPokemon(items); 
+// console.log(game.party);
 
 //Not sure where to go from here.
 //This is as far as I got with this assignment. I've been working on it from April 9th-13th and rewatching Objects lecture and Arrays lecture. 
