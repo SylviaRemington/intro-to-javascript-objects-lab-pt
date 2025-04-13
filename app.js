@@ -31,7 +31,8 @@ const game = {
   See this in console log on web browser as Array(151) with drop down menu of arrays 0-99, 100-150.*/
 
 //   For exercise 1, below are the first two trys of logging the name of the Pokemon with the number 59;
-//   but the correct answer (I think) is console.log(pokemon[59].name);
+//   but the correct answer (I think) is console.log(pokemon[59].name); however, if you're looking for the name of Pokemon #59, 
+//   then the answer is console.log(pokemon[58].name);
 
 //Incorrect attempts... /was figuring it out at this point
 //   console.log(name, [59]);
@@ -162,7 +163,7 @@ console.log(game.party);
 
 game.party = [pokemon[3], ...game.party];
 console.log(game.party);
-//I wanted to use the spread array method to add this pokemon. This pokemon has a different type called 'fire'.
+//I wanted to use the spread array method to add this pokemon 'Charmander'. This pokemon has a different type called 'fire'.
 //The above created this in the console log:
 // 0: {number: 4, name: 'Charmander', type: 'fire', hp: 39, starter: true}
 // 1: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
