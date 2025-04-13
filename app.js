@@ -280,10 +280,33 @@ Hint:
 
 More Hints: The existing starter Pokemon will be *replaced* in your party with the Pokemon it evolved into. When working with an array of objects, the splice() array method is ideal for replacing one element with another. 
 
+More notes from chaptgpt to understand what's going on:
+
+What does "evolve the starter Pokémon" mean?
+In Pokémon, evolving means: Replacing a Pokémon with its stronger, next version.
+For example: Bulbasaur → Ivysaur, or Pikachu → Raichu
+So you're not adding a new Pokémon — you're swapping the old one with its evolved form.
+
+What you're supposed to do:
+Look in your game.party array.
+Find the starter Pokémon you added earlier (like Pikachu, Bulbasaur, etc.)
+Replace that exact Pokémon with the one it evolves into (like Raichu or Ivysaur).
+
+So my current game.party is the following: 
+0: {number: 4, name: 'Charmander', type: 'fire', hp: 39, starter: true}
+1: {number: 1, name: 'Bulbasaur', type: 'grass', hp: 45, starter: true}
+2: {number: 7, name: 'Squirtle', type: 'water', hp: 44, starter: true}
+3: {number: 25, name: 'Pikachu', type: 'electric', hp: 35, starter: true}
+length: 4
+[[Prototype]]: Array(0)
 
 Solve Exercise 7 here:
 */
 
+console.log(game.party);
+
+//going to use splice method to switch these players out to the next evolved player
+//going to remove one pokemon from game.party and insert a different one
 
 
 
