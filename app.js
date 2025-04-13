@@ -324,6 +324,54 @@ game.party.splice(3, 1, pokemon[25]);
 // - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu / P is in index3 in party and replacing with pokemon index 25
 console.log(game.party);
 
+
+//Another option:
+// To make the code more dynamic and more reuseable, you can do:
+// const evolutions = [
+//   { starterNumber: 1, evolvedNumber: 2 },   // Bulbasaur → Ivysaur
+//   { starterNumber: 4, evolvedNumber: 5 },   // Charmander → Charmeleon
+//   { starterNumber: 7, evolvedNumber: 8 },   // Squirtle → Wartortle
+//   { starterNumber: 25, evolvedNumber: 26 }  // Pikachu → Raichu
+// ];
+
+// game.party.forEach(function(pokemon, index) {
+//   if (pokemon.number === 1) {
+//     game.party.splice(index, 1, pokemon[1]); // Ivysaur
+//   } else if (pokemon.number === 4) {
+//     game.party.splice(index, 1, pokemon[5]); // Charmeleon
+//   } else if (pokemon.number === 7) {
+//     game.party.splice(index, 1, pokemon[8]); // Wartortle
+//   } else if (pokemon.number === 25) {
+//     game.party.splice(index, 1, pokemon[26]); // Raichu
+//   }
+// });
+
+// console.log("Evolved party:", game.party);
+
+//wait, maybe this isn't reusable... How would I make this reuseable for the future? I'm still figuring this out.
+
+//Yet another option                            //I'm explaining it for myself in case I need to reference later
+// const evolutions = [                         //Here I created a variable named evolutions that will hold an array of objects
+//   { starterNumber: 1, evolvedNumber: 2 },   // Bulbasaur → Ivysaur //If pokemon has a starter number (original number) of 1, will evolve to an evolved number (aka new pokemon number)
+//   { starterNumber: 4, evolvedNumber: 5 },   // Charmander → Charmeleon //4 becomes 5 (similar to last line)
+//   { starterNumber: 7, evolvedNumber: 8 },   // Squirtle → Wartortle //7 becomes 8
+//   { starterNumber: 25, evolvedNumber: 26 }  // Pikachu → Raichu// 25 becomes 26
+// ];
+
+// game.party.forEach(function(pokemon, index) { 
+//Starting a forEach loop through the game.party array
+//Starting at my current Pokemon team (game.party), forEach to loop through each Pokemon
+// then with (function(pokemon, index), for every pokemon, pokemon is the current pokemon looking at, and index is the index
+
+//   evolutions.forEach(function(evolution) { //for the list of all the possible starterNumber:evolvedNumber pairs, loop through
+//     if (pokemon.number === evolution.starterNumber) { //if pokemon equals the starter number, splice on the next line
+//       game.party.splice(index, 1, pokemon[evolution.evolvedNumber]);
+//     }
+//   });
+// });
+
+// console.log("Evolved party is now ", game.party);
+
 // ---------------------------------------------------------------------------------------------------------
 
 
