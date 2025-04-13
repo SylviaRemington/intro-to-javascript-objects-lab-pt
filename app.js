@@ -492,3 +492,6 @@ game.catchPokemon(pokemon[81]);
 console.log(game.party);
 
 //Write explanation of this code and why chose to do it this way... when I get back to this hw tomorrow.....
+
+
+ // ---------------------------------------------------------------------------------------------------------
