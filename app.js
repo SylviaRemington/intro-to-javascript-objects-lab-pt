@@ -1,6 +1,8 @@
 // This lab provides an opportunity to practice defining, accessing, and manipulating objects.
 // console.log("Checking if console in browser is working... Working!");//Quick check before assignment
 //to make sure console log is working
+//This lab has been highly challenging to me because I've only played two video games in my entire life for maybe a total of 15 minutes.
+//It's taking me longer than normal to understand the concepts behind the game to understand what I am trying to create.
 
 const game = {
     party: [],
@@ -264,6 +266,23 @@ game.gyms.forEach(function(gym){ //gets inside of the array, so now I can just n
 console.log(game.gyms);
 
 // ---------------------------------------------------------------------------------------------------------
+
+/*
+Exercise 7
+1. Evolve the starter Pokémon you added to your party earlier. Each starter Pokémon evolves into a specific one.
+2. How would you replace the current starter Pokémon in your party with its evolved form?
+
+Hint: 
+  - Pokemon 1: Bulbasaur evolves into Pokemon 2: Ivysaur
+  - Pokemon 4: Charmander evolves into Pokemon 5: Charmeleon
+  - Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle
+  - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu
+
+More Hints: The existing starter Pokemon will be *replaced* in your party with the Pokemon it evolved into. When working with an array of objects, the splice() array method is ideal for replacing one element with another. 
+
+
+Solve Exercise 7 here:
+*/
 
 
 
