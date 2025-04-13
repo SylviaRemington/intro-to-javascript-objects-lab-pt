@@ -488,7 +488,7 @@ Solve Exercise 10 here:
 game.catchPokemon = function(pokemonObj) {
   game.party.push(pokemonObj);
 };
-game.catchPokemon(pokemon[25]);
+game.catchPokemon(pokemon[81]);
 console.log(game.party);
 
 //Write explanation of this code and why chose to do it this way... when I get back to this hw tomorrow....
