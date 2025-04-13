@@ -308,15 +308,23 @@ console.log(game.party);
 //going to use splice method to switch these players out to the next evolved player
 //going to remove one pokemon from game.party and insert a different one
 
+game.party.splice(0, 1, pokemon[4]);
+//Pokemon 4 which I currently have at index 0 in party. Charmander evolves into Pokemon 5: Charmeleon (and Charmeleon is at index 4 in pokemon).
+console.log(game.party); //making sure I've taken out Charmander and replaced with Charmeleon.
 
+game.party.splice(1, 1, pokemon[1]);
+//  - Pokemon 1: Bulbasaur evolves into Pokemon 2: Ivysaur / B is in index1 in party and replacing with pokemon index 1
+console.log(game.party);
 
+game.party.splice(2, 1, pokemon[7]);
+//- Pokemon 7: Squirtle evolves into Pokemon 8: Wartortle / S is in index2 in party and replacing with pokemon index 7
+console.log(game.party);
 
+game.party.splice(3, 1, pokemon[25]);
+// - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu / P is in index3 in party and replacing with pokemon index 25
+console.log(game.party);
 
-
-
-  
-
-
+// ---------------------------------------------------------------------------------------------------------
 
 
 
