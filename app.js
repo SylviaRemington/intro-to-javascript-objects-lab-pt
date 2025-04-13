@@ -545,3 +545,9 @@ console.log(game.party);
 //This is as far as I got with this assignment. I've been working on it from April 9th-13th and rewatching Objects lecture and Arrays lecture. 
 // This is the best I can do so far. For some reason, Objects and this objects lab isn't clicking for me yet. 
 // I'm kinda confused as to how to combine everything I know for this lab. I hope I can still get credit for this lab. Doing the best I can.
+
+
+//Notes for me:
+//If have time after going through HTML & CSS Video Watch assignment, 
+// look into this method and review Objects lecture again. 
+// Also, look into find method and find more info about that.
