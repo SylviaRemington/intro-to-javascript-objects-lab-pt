@@ -555,3 +555,5 @@ Solve Exercise 11 here:
 // So far have done Exercises 1-10 correctly. Still working on Ex 11, and will keep working on this until assignment due on Monday, April 14th.
 // Is it normal to take this long to understand this assignment? Am I too slow or stupid to code? Or is this normal to struggle when learning this?
 //I've never had such a hard time learning a subject before. Normally, I learn subjects quickly.
+
+//Exercises 1-11 completed //will continue to work on this lab for my own knowledge of Objects.
