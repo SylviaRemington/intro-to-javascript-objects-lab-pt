@@ -556,4 +556,7 @@ Solve Exercise 11 here:
 // Is it normal to take this long to understand this assignment? Am I too slow or stupid to code? Or is this normal to struggle when learning this?
 //I've never had such a hard time learning a subject before. Normally, I learn subjects quickly.
 
+
+
 //Exercises 1-11 completed //will continue to work on this lab for my own knowledge of Objects.
+//I'm aware this is as far as I could get in this particular lab for the deadline to turn this in. I just need more practice, which will come with time.
