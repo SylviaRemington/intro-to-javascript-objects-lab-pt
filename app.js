@@ -557,6 +557,5 @@ Solve Exercise 11 here:
 //I've never had such a hard time learning a subject before. Normally, I learn subjects quickly.
 
 
-
 //Exercises 1-11 completed //will continue to work on this lab for my own knowledge of Objects.
 //I'm aware this is as far as I could get in this particular lab for the deadline to turn this in. I just need more practice, which will come with time.
