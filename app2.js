@@ -135,6 +135,13 @@ game.gyms.forEach(function(gym){ //gets inside of the array, so now I can just n
     }
   });
   console.log(game.gyms);
+
+  // game.gyms.forEach(function(gym){ 
+  //   if (gym.difficulty <3) {  
+  //     gym.completed = true;   
+  // }
+  // });
+  // console.log(game.gyms);
   
 // ---------------------------------------------------------------------------------------------------------
 
@@ -194,6 +201,12 @@ console.log(game.party);
 game.party.splice(3, 1, pokemon[25]);
 // - Pokemon 25: Pikachu evolves into Pokemon 26: Raichu / P is in index3 in party and replacing with pokemon index 25
 console.log(game.party);
+
+// game.party.splice(0, 1, pokemon[4]);
+// game.party.splice(1, 1, pokemon[1]);
+// game.party.splice(2, 1, pokemon[7]);
+// game.party.splice(3, 1, pokemon[25]);
+// console.log(game.party);
 
 
 //Another option:
