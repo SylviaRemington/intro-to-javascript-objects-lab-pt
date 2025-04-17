@@ -4,6 +4,9 @@
 //This lab has been highly challenging for me because I've only played two video games in my entire life for maybe a total of 15 minutes.
 //It's taking me longer than normal to understand the concepts behind the game to understand what I am trying to create.
 
+//Added a app2.js file that is more readable with just answers and basic notes.
+//App2.js is more readable and better for instructor/TA review. It was created for that purpose.
+
 const game = {
     party: [],
     gyms: [
