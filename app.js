@@ -9,6 +9,37 @@
 
 //Re-reviewing Objects Lesson & Objects Lab
 
+/*
+Exercise 1
+Spend some time inspecting the pokemon array by running the following command:
+
+Copy
+console.dir(pokemon, { maxArrayLength: null })
+In this lab, we’re using a method you might be unfamiliar with: console.dir(). We’re using it here so that you can see all of the Pokemon in the console. Normally, both console.dir() and console.log() show only the first 100 items in an array. However, by using { maxArrayLength: null } with console.dir(), we can display every item in the array. This specific option isn’t available with console.log(), making console.dir() the necessary choice for the full visibility needed in this lab.
+
+Take note of the shape of the data here. Each Pokemon object in the array has the following properties:
+
+Number: A number between 1 and 151.
+Name: A string representing the Pokémon’s name.
+Type: A string indicating the Pokémon’s type.
+HP (Hit Points): A numerical value representing the Pokémon’s health.
+Starter: A boolean indicating whether the Pokémon is a starter.
+There’s some game-specific terminology here, if you’re new to Pokémon, here’s an explanation of the terms used in the game:
+
+Number: Each Pokémon has a unique number as its identifier.
+Type: This refers to a Pokémon’s primary abilities. While Pokémon can have multiple types, we’re focusing on their primary type here for simplicity.
+Hit Points (HP): This is a measure of a Pokémon’s health, expressed in a numerical value.
+Starter Pokémon: At the beginning of the game, players choose a starting Pokémon. In our data, starter Pokémon are marked with a starter property set to true.
+The starter Pokémon options are:
+
+Pokémon 1: Bulbasaur
+Pokémon 4: Charmander
+Pokémon 7: Squirtle
+Pokémon 25: Pikachu
+When you’ve completed your inspection of the data, you can comment out the console.dir() method and use console.log() to log JUST the name of the Pokemon with the number 59 using the index of the Pokemon in the array. Feel free to uncomment the console.dir() as needed to help you complete the rest of the lab.
+
+*/
+
 const game = {
     party: [],
     gyms: [
@@ -54,6 +85,24 @@ console.log(pokemon[58].name);//is actually pokemon 59 at index 58 of the array,
 // QUESTION - Which one is the assignment asking me for? The index or the actual pokemon number?
 
 // ---------------------------------------------------------------------------------------------------------
+
+/*
+Exercise 2
+Next, add the following console.log:
+
+Run the following:
+
+console.log(game)
+Take a moment to familiarize yourself with the game object being logged. It has four properties: party, gyms, and items. All of these hold or will hold an array of objects.
+
+As you move through the exercises:
+
+game.party will hold an array of Pokemon objects that will be retrieved from the pokemon array we reviewed in Exercise 1. These are Pokemon that you have caught!
+game.gyms holds an array of objects, each representing a gym (checkpoints placed throughout the game). Note the completed boolean property on each. This will be important later.
+game.items holds an array of objects, each representing an item in a player’s inventory.
+When you’ve completed your inspection of the data, you can comment out the console.log and move on to Exercise 3. Feel free to uncomment the console.log as needed to help you complete the rest of the lab.
+
+*/
 
 // Exercise 2
 // game.party = all the Pokémon on my team (ones I've caught)
@@ -499,6 +548,7 @@ console.log(game.party); //
 
  // ---------------------------------------------------------------------------------------------------------
 
+//STILL NEED TO FULLY GO THROUGH EXERCISES 11-16 / & if time allows, the Level Up of 17-21
 
 /*
 Exercise 11
