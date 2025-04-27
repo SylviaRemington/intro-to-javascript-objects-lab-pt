@@ -7,6 +7,8 @@
 //Added a app2.js file that is more readable with just answers and basic notes.
 //App2.js is more readable and better for instructor/TA review. It was created for that purpose.
 
+//Re-reviewing Objects Lesson & Objects Lab
+
 const game = {
     party: [],
     gyms: [
